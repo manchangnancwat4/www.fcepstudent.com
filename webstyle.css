@@ -1,0 +1,111 @@
+<head>
+<style>
+body {
+  background-color: rgb(134, 46, 248);
+  color: rgb(226, 236, 226);
+}
+
+marquee {
+  background-color: black;
+  color: white;
+}
+
+h1{
+  background-color: rgb(221, 27, 205))255, 0, 170)255, 0, 170);
+  color: yellow;
+  font: size 1px;
+  font-family:arial;
+  text-align:center;
+  
+}
+        img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+     
+}
+</style>
+</head>
+
+<style> 
+  body{ 
+  margin: 10px; 
+  padding: 0; 
+} 
+  
+div{ 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+} 
+   
+ h5{ 
+   font-size: 2em; 
+   font-family: serif; 
+   color:#008000; 
+   text-align: center; 
+   animation: animate 1.5s linear infinite; 
+ }  
+  
+ @keyframes animate{ 
+   0%{ 
+     opacity: 0; 
+   } 
+   50%{ 
+     opacity: 0.7; 
+   } 
+   100%{ 
+     opacity: 0; 
+   } 
+ } 
+</style> 
+
+Final Code: It is the combination of the above two code sections.
+
+    <style> 
+        body { 
+            margin: 0; 
+            padding: 0; 
+        } 
+  
+        div { 
+            position: absolute; 
+            top: 50%; 
+            left: 50%; 
+            transform: translate(-50%, -50%); 
+        } 
+  
+        h2 { 
+            font-size: 5em; 
+            font-family: serif; 
+            color: #008000; 
+            text-align: center; 
+            animation: animate  
+                1.5s linear infinite; 
+        } 
+  
+        @keyframes animate { 
+            0% { 
+                opacity: 0; 
+            } 
+  
+            50% { 
+                opacity: 0.7; 
+            } 
+  
+            100% { 
+                opacity: 0; 
+            } 
+        } 
+    </style> 
+</head> 
+  
+<body> 
+    <div> 
+        <h2>Blink</h2> 
+    </div> 
+</body> 
+  
+</html> 
